@@ -9,7 +9,7 @@ import java.lang.annotation.*;
 @Target({ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface VincentAutowired {
+public @interface VincentAutowried {
 
     String value() default "";
 }
